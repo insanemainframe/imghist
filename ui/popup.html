@@ -4,25 +4,22 @@
     <meta http-equiv="no-cache">
     <meta http-equiv="Expires" content="-1">
     <meta http-equiv="Cache-Control" content="no-cache">
-    <script src="../js/main.js?1"></script>
-    <script src="../js/jquery.js?1"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/extractor.js"></script>
+    <script src="../js/services.js"></script>
+    <script src="slider.js"></script>
     <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css" type="text/css">
     <title></title>
 </head>
 <body>
     <div id="slider_div">
-        <div>
-            <p>
-                <a class="back_arrow">
-                    Back
-                    <span class="counter"> 0 </span>
-                </a>
-                /
-                <a class="next_arrow">
-                    <span class="counter"> 0 </span>
-                    Next
-                </a>
-            </p>
+        <div class="arrows_block">
+            <img class="arrow back" src="/var/arrow_back.png">
+            <span class="counter back"> 0 </span>
+            <span class="counter next"> 0 </span>
+            <img class="arrow next" src="/var/arrow_next.png">
         </div>
         <div>
             <img class="slider_img" height=300px width=300px>

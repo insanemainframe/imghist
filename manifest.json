@@ -15,7 +15,8 @@
 
     "background": {
             "scripts": ["js/main.js",
-                        "js/view.js",
+                        "js/extractor.js",
+                        "js/services.js",
                         "js/jquery.js"]
     },
 

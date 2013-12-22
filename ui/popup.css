@@ -1,0 +1,21 @@
+.arrows_block{
+    align: center;
+}
+
+
+.arrow{
+
+}
+
+.counter{
+
+}
+
+.back{
+    float: left;
+    margin-left: 50px;
+}
+.next{
+    float: right;
+    margin-right: 50px;
+}
