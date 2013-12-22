@@ -1,5 +1,6 @@
 .arrows_block{
-    align: center;
+    margin-bottom: 15px;
+    padding: 10px;
 }
 
 
@@ -8,14 +9,17 @@
 }
 
 .counter{
+}
 
+.arrows_block_item{
+    width: 32%;
 }
 
 .back{
     float: left;
-    margin-left: 50px;
+    /*margin-left: 25px;*/
 }
 .next{
     float: right;
-    margin-right: 50px;
+    /*margin-right: 25px;*/
 }
