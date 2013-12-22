@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+
+    "name": "images history",
+    "version": "1.0",
+
+    "icons": {
+        "16": "var/16x16.png"
+    },
+
+    "permissions": [
+         "history",
+         "storage"
+    ],
+
+    "background": {
+            "scripts": ["js/main.js",
+                        "js/view.js",
+                        "js/jquery.js"]
+    },
+
+    "browser_action": {
+        "default_popup":  "ui/popup.html",
+        "default_title": "Open image history",
+        "default_icon": "var/16x16.png"
+    }
+ }
